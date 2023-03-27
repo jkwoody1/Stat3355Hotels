@@ -1,0 +1,13 @@
+---
+title: "Load Data"
+output: html_notebook
+---
+
+Load the necessary functions:
+```{r}
+  source("clean_data.R")
+```
+
+```{r}
+  get_cleaned_bookings()
+```
