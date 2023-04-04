@@ -5,7 +5,7 @@ get_cleaned_bookings <- function() {
   # Referencing the original dataset source for column details:
   # https://www.sciencedirect.com/science/article/pii/S2352340918315191
   
-  bookings = read.csv("hotel_bookings.csv")
+  bookings <- read.csv("hotel_bookings.csv")
 
   # hotel type has two values: "Resort Hotel" and "City Hotel"
   bookings$hotel <- factor(bookings$hotel)
